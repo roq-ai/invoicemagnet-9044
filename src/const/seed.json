@@ -1,0 +1,2472 @@
+[
+  {
+    "source": [
+      {
+        "id": "a01107be-f62b-4c48-9f6c-73907367d714",
+        "name": "Google",
+        "type": "Search Engine",
+        "url": "www.google.com",
+        "created_at": "2023-09-22T15:10:55.300Z",
+        "updated_at": "2023-09-23T05:01:42.619Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "49b1e277-2083-4d77-a910-478ce1cfa1d6",
+        "name": "Facebook",
+        "type": "Social Media",
+        "url": "www.facebook.com",
+        "created_at": "2023-09-23T06:36:54.441Z",
+        "updated_at": "2023-09-23T02:28:56.167Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "177fa1ad-027f-41bc-ac0d-af146bbc1f1d",
+        "name": "Twitter",
+        "type": "News Website",
+        "url": "www.twitter.com",
+        "created_at": "2023-09-22T20:23:40.426Z",
+        "updated_at": "2023-09-23T01:33:04.222Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9e181e1-b4af-41da-bf55-89e405281e00",
+        "name": "Instagram",
+        "type": "Video Sharing",
+        "url": "www.instagram.com",
+        "created_at": "2023-09-23T04:12:39.580Z",
+        "updated_at": "2023-09-23T05:27:43.984Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "adfd4ccc-ae63-436d-a389-00ffc1ae5741",
+        "name": "LinkedIn",
+        "type": "Professional Network",
+        "url": "www.linkedin.com",
+        "created_at": "2023-09-22T18:04:00.738Z",
+        "updated_at": "2023-09-23T11:48:36.643Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "37436df0-87ec-4b0e-8710-c3aef27f92b8",
+        "invoice_number": "INV-001",
+        "date": "2023-09-23T03:48:52.938Z",
+        "total_amount": 97938,
+        "status": "Pending",
+        "due_date": "2023-09-23T13:17:02.513Z",
+        "created_at": "2023-09-23T02:05:23.593Z",
+        "updated_at": "2023-09-22T16:50:17.849Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6b0f022-e570-49c2-b89f-cfa77e5244fe",
+        "invoice_number": "INV-002",
+        "date": "2023-09-22T20:39:06.587Z",
+        "total_amount": 46571,
+        "status": "Paid",
+        "due_date": "2023-09-23T00:45:55.823Z",
+        "created_at": "2023-09-22T20:51:21.926Z",
+        "updated_at": "2023-09-22T23:38:43.654Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d34aca03-6530-473a-af2b-01f3df2bbdf0",
+        "invoice_number": "INV-003",
+        "date": "2023-09-22T22:19:08.609Z",
+        "total_amount": 16237,
+        "status": "Overdue",
+        "due_date": "2023-09-23T05:02:43.746Z",
+        "created_at": "2023-09-23T12:24:21.196Z",
+        "updated_at": "2023-09-23T04:30:54.316Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7d98cc14-f706-4a0f-9811-d59a945ee407",
+        "invoice_number": "INV-004",
+        "date": "2023-09-23T03:25:44.941Z",
+        "total_amount": 53244,
+        "status": "Cancelled",
+        "due_date": "2023-09-23T09:40:51.010Z",
+        "created_at": "2023-09-23T03:27:46.000Z",
+        "updated_at": "2023-09-22T23:09:33.946Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e736601-d694-45ce-a9ca-0dafc9fc81a2",
+        "invoice_number": "INV-005",
+        "date": "2023-09-23T12:03:57.990Z",
+        "total_amount": 56382,
+        "status": "Draft",
+        "due_date": "2023-09-23T09:53:58.680Z",
+        "created_at": "2023-09-22T17:52:34.125Z",
+        "updated_at": "2023-09-22T14:57:04.849Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "source_invoice": [
+      {
+        "id": "681bd866-e474-4f8b-a966-c5871d280fa9",
+        "created_at": "2023-09-23T04:02:45.186Z",
+        "updated_at": "2023-09-22T19:52:24.596Z",
+        "invoice_id": "7d98cc14-f706-4a0f-9811-d59a945ee407",
+        "source_id": "177fa1ad-027f-41bc-ac0d-af146bbc1f1d"
+      },
+      {
+        "id": "70c907e6-1d31-4130-883f-38696244379c",
+        "created_at": "2023-09-22T18:01:55.900Z",
+        "updated_at": "2023-09-23T12:34:16.623Z",
+        "invoice_id": "f6b0f022-e570-49c2-b89f-cfa77e5244fe",
+        "source_id": "adfd4ccc-ae63-436d-a389-00ffc1ae5741"
+      },
+      {
+        "id": "6bca7682-ce0c-4116-b57f-41d94bf92e84",
+        "created_at": "2023-09-22T21:10:25.890Z",
+        "updated_at": "2023-09-23T09:26:28.894Z",
+        "invoice_id": "37436df0-87ec-4b0e-8710-c3aef27f92b8",
+        "source_id": "d9e181e1-b4af-41da-bf55-89e405281e00"
+      },
+      {
+        "id": "600b8eed-7386-4690-8034-ed512b098956",
+        "created_at": "2023-09-23T03:43:12.582Z",
+        "updated_at": "2023-09-22T15:35:20.167Z",
+        "invoice_id": "37436df0-87ec-4b0e-8710-c3aef27f92b8",
+        "source_id": "adfd4ccc-ae63-436d-a389-00ffc1ae5741"
+      },
+      {
+        "id": "827a9e20-85c4-4f95-b87a-345839c67d43",
+        "created_at": "2023-09-22T18:33:12.811Z",
+        "updated_at": "2023-09-22T21:43:13.564Z",
+        "invoice_id": "7d98cc14-f706-4a0f-9811-d59a945ee407",
+        "source_id": "adfd4ccc-ae63-436d-a389-00ffc1ae5741"
+      }
+    ],
+    "invoice_item": [
+      {
+        "id": "2fd99158-d177-4154-bfc1-9ca78dd0050c",
+        "description": "Product A",
+        "quantity": 21033,
+        "price": 81098,
+        "total": 50973,
+        "created_at": "2023-09-22T16:49:19.415Z",
+        "updated_at": "2023-09-22T23:14:17.920Z",
+        "invoice_id": "9e736601-d694-45ce-a9ca-0dafc9fc81a2"
+      },
+      {
+        "id": "0053a3ae-12ae-4408-b62a-80dcc240699c",
+        "description": "Service B",
+        "quantity": 75798,
+        "price": 70998,
+        "total": 19635,
+        "created_at": "2023-09-23T03:28:00.014Z",
+        "updated_at": "2023-09-23T12:02:00.190Z",
+        "invoice_id": "7d98cc14-f706-4a0f-9811-d59a945ee407"
+      },
+      {
+        "id": "2ac35cb9-4f2e-4ab6-b1e0-37692460847e",
+        "description": "Item C",
+        "quantity": 68358,
+        "price": 27437,
+        "total": 21477,
+        "created_at": "2023-09-22T16:42:17.780Z",
+        "updated_at": "2023-09-22T20:49:58.194Z",
+        "invoice_id": "f6b0f022-e570-49c2-b89f-cfa77e5244fe"
+      },
+      {
+        "id": "3de76652-ea4b-49d8-9d51-25e265b1790f",
+        "description": "Accessory D",
+        "quantity": 81273,
+        "price": 37269,
+        "total": 9516,
+        "created_at": "2023-09-22T15:47:04.845Z",
+        "updated_at": "2023-09-23T10:52:22.998Z",
+        "invoice_id": "7d98cc14-f706-4a0f-9811-d59a945ee407"
+      },
+      {
+        "id": "67ebc5a6-a26e-4fe7-b525-cdbb2e2067d7",
+        "description": "Part E",
+        "quantity": 60379,
+        "price": 16721,
+        "total": 45004,
+        "created_at": "2023-09-23T05:36:46.175Z",
+        "updated_at": "2023-09-23T00:48:29.277Z",
+        "invoice_id": "f6b0f022-e570-49c2-b89f-cfa77e5244fe"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d8f5188e-3680-4232-b268-7e54e463f727",
+        "email": "Shemar_Luettgen@roq.tech",
+        "firstName": "Mozell",
+        "lastName": "Wilderman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/264.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "670ee290-6a46-43d1-ab30-0407d95423be",
+        "email": "Ladarius4@roq.tech",
+        "firstName": "Giovanni",
+        "lastName": "Rice",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2113948",
+        "tenantId": null
+      },
+      {
+        "reference": "63fb1690-c625-4318-a457-710b3c1727ad",
+        "email": "Kimberly2@roq.tech",
+        "firstName": "Kristoffer",
+        "lastName": "Koss",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28464573",
+        "tenantId": null
+      },
+      {
+        "reference": "02259e9d-afca-41c9-a200-e325b75f5954",
+        "email": "Raheem92@roq.tech",
+        "firstName": "Ressie",
+        "lastName": "Howe-Kertzmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/872.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "85b4ab83-8bbf-48c4-b02a-8c13e990f409",
+        "email": "Shayna0@roq.tech",
+        "firstName": "Ashly",
+        "lastName": "Welch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23172408",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "source": [
+      {
+        "id": "e10ba0ea-90fa-4b26-be4f-20805309c5ea",
+        "name": "Google",
+        "type": "Search Engine",
+        "url": "https://www.google.com",
+        "created_at": "2023-09-23T06:45:13.833Z",
+        "updated_at": "2023-09-23T10:24:18.028Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6e6dd10-9c33-484d-a1f1-c7d4d9dd317a",
+        "name": "Facebook",
+        "type": "Social Media",
+        "url": "https://www.facebook.com",
+        "created_at": "2023-09-23T02:37:30.991Z",
+        "updated_at": "2023-09-23T11:50:57.441Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9584613a-db7a-4590-a185-b586c6b72fd9",
+        "name": "Twitter",
+        "type": "News",
+        "url": "https://www.twitter.com",
+        "created_at": "2023-09-23T05:34:40.237Z",
+        "updated_at": "2023-09-22T18:43:38.844Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e368cac1-f78f-4f39-93f6-509ac9e3d187",
+        "name": "Instagram",
+        "type": "Entertainment",
+        "url": "https://www.instagram.com",
+        "created_at": "2023-09-22T15:58:31.329Z",
+        "updated_at": "2023-09-23T06:20:02.163Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79fcae64-23b3-4999-98fe-c8007069acca",
+        "name": "LinkedIn",
+        "type": "E-commerce",
+        "url": "https://www.linkedin.com",
+        "created_at": "2023-09-22T14:29:28.208Z",
+        "updated_at": "2023-09-22T21:06:58.871Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "e25b7007-cf12-45b1-b842-74fb8f7b0c0e",
+        "invoice_number": "INV-001",
+        "date": "2023-09-22T17:19:02.456Z",
+        "total_amount": 8111,
+        "status": "Paid",
+        "due_date": "2023-09-23T12:16:22.830Z",
+        "created_at": "2023-09-22T15:23:22.198Z",
+        "updated_at": "2023-09-23T13:06:01.415Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "642dee30-6e24-4c6a-9441-0c2d1122e58a",
+        "invoice_number": "INV-002",
+        "date": "2023-09-22T20:48:09.627Z",
+        "total_amount": 8680,
+        "status": "Pending",
+        "due_date": "2023-09-22T23:31:51.432Z",
+        "created_at": "2023-09-23T00:49:47.134Z",
+        "updated_at": "2023-09-23T04:02:47.296Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51187c25-b88a-491f-9479-e51d38a03eb0",
+        "invoice_number": "INV-003",
+        "date": "2023-09-22T17:59:41.268Z",
+        "total_amount": 27710,
+        "status": "Overdue",
+        "due_date": "2023-09-23T05:25:15.875Z",
+        "created_at": "2023-09-22T19:59:34.651Z",
+        "updated_at": "2023-09-23T06:51:23.239Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ea380dc-e136-4abf-a2b3-ba23d2079fdc",
+        "invoice_number": "INV-004",
+        "date": "2023-09-22T20:56:39.936Z",
+        "total_amount": 33118,
+        "status": "Cancelled",
+        "due_date": "2023-09-23T05:53:08.284Z",
+        "created_at": "2023-09-23T06:59:41.080Z",
+        "updated_at": "2023-09-22T22:45:00.645Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea854547-62d1-48ec-8bd6-16fa848addab",
+        "invoice_number": "INV-005",
+        "date": "2023-09-23T14:13:39.038Z",
+        "total_amount": 58724,
+        "status": "Refunded",
+        "due_date": "2023-09-22T21:05:34.411Z",
+        "created_at": "2023-09-22T20:29:41.006Z",
+        "updated_at": "2023-09-23T13:03:01.376Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "source_invoice": [
+      {
+        "id": "b1154d4c-972b-413d-bbfa-980ee2f272f3",
+        "created_at": "2023-09-23T10:42:07.735Z",
+        "updated_at": "2023-09-23T05:08:03.312Z",
+        "invoice_id": "51187c25-b88a-491f-9479-e51d38a03eb0",
+        "source_id": "e10ba0ea-90fa-4b26-be4f-20805309c5ea"
+      },
+      {
+        "id": "02d78d7a-bf64-4fe7-8b50-b56ddec5f322",
+        "created_at": "2023-09-22T17:46:54.150Z",
+        "updated_at": "2023-09-23T07:47:29.045Z",
+        "invoice_id": "642dee30-6e24-4c6a-9441-0c2d1122e58a",
+        "source_id": "79fcae64-23b3-4999-98fe-c8007069acca"
+      },
+      {
+        "id": "e5444f7e-95b5-4380-85da-d8acc853e8e3",
+        "created_at": "2023-09-23T09:59:01.472Z",
+        "updated_at": "2023-09-22T20:21:31.090Z",
+        "invoice_id": "e25b7007-cf12-45b1-b842-74fb8f7b0c0e",
+        "source_id": "e10ba0ea-90fa-4b26-be4f-20805309c5ea"
+      },
+      {
+        "id": "99dc6921-ecb6-428a-b178-34072540c905",
+        "created_at": "2023-09-22T23:40:03.271Z",
+        "updated_at": "2023-09-23T01:01:38.190Z",
+        "invoice_id": "5ea380dc-e136-4abf-a2b3-ba23d2079fdc",
+        "source_id": "b6e6dd10-9c33-484d-a1f1-c7d4d9dd317a"
+      },
+      {
+        "id": "9380f96f-ae07-4d62-b7d9-6e86940553da",
+        "created_at": "2023-09-23T10:31:31.253Z",
+        "updated_at": "2023-09-23T10:22:35.780Z",
+        "invoice_id": "ea854547-62d1-48ec-8bd6-16fa848addab",
+        "source_id": "79fcae64-23b3-4999-98fe-c8007069acca"
+      }
+    ],
+    "invoice_item": [
+      {
+        "id": "b55ca939-ec4c-478a-80fb-34a94d6d540a",
+        "description": "Product A",
+        "quantity": 61115,
+        "price": 52145,
+        "total": 89698,
+        "created_at": "2023-09-23T03:24:33.014Z",
+        "updated_at": "2023-09-22T15:48:34.128Z",
+        "invoice_id": "ea854547-62d1-48ec-8bd6-16fa848addab"
+      },
+      {
+        "id": "e2f9635f-3b82-4cc8-b009-c4f057ff2113",
+        "description": "Product B",
+        "quantity": 94759,
+        "price": 90336,
+        "total": 80235,
+        "created_at": "2023-09-23T02:46:00.109Z",
+        "updated_at": "2023-09-22T17:49:53.470Z",
+        "invoice_id": "5ea380dc-e136-4abf-a2b3-ba23d2079fdc"
+      },
+      {
+        "id": "e1cc5481-ba0b-445d-b8d7-20a692a40625",
+        "description": "Product C",
+        "quantity": 41776,
+        "price": 84089,
+        "total": 66122,
+        "created_at": "2023-09-23T11:52:53.284Z",
+        "updated_at": "2023-09-23T02:00:26.428Z",
+        "invoice_id": "e25b7007-cf12-45b1-b842-74fb8f7b0c0e"
+      },
+      {
+        "id": "d3c8a98e-1787-4a74-973d-97b36e364bd2",
+        "description": "Product D",
+        "quantity": 1410,
+        "price": 39939,
+        "total": 96354,
+        "created_at": "2023-09-23T11:19:08.556Z",
+        "updated_at": "2023-09-22T21:59:16.153Z",
+        "invoice_id": "51187c25-b88a-491f-9479-e51d38a03eb0"
+      },
+      {
+        "id": "557d407e-c09b-4687-b972-0586d9ef4233",
+        "description": "Product E",
+        "quantity": 59017,
+        "price": 76255,
+        "total": 56106,
+        "created_at": "2023-09-23T10:36:58.655Z",
+        "updated_at": "2023-09-23T01:50:07.380Z",
+        "invoice_id": "e25b7007-cf12-45b1-b842-74fb8f7b0c0e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "046f2ee7-61c7-4851-9c69-4f0648b3cdde",
+        "email": "Kelvin_Oberbrunner@roq.tech",
+        "firstName": "Furman",
+        "lastName": "Kreiger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2843246",
+        "tenantId": null
+      },
+      {
+        "reference": "0d1b05d2-ae0c-4650-bcdc-aee35173a28d",
+        "email": "Alexanne30@roq.tech",
+        "firstName": "Heber",
+        "lastName": "Marvin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1659819",
+        "tenantId": null
+      },
+      {
+        "reference": "e584d16d-4a8c-4957-91ca-bc522259f389",
+        "email": "Antwon36@roq.tech",
+        "firstName": "Hester",
+        "lastName": "Schneider",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/848.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "46fef64d-897c-4034-9b65-176eb4bccbf7",
+        "email": "Rodger_Pagac@roq.tech",
+        "firstName": "Gerard",
+        "lastName": "Huels",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10166650",
+        "tenantId": null
+      },
+      {
+        "reference": "a3c5fd4a-cdb4-4a73-a8cb-d4d7d09ad650",
+        "email": "Delmer.Murray9@roq.tech",
+        "firstName": "Daisy",
+        "lastName": "Boyer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/331.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "source": [
+      {
+        "id": "8d38553d-75e6-4f5c-881c-e12d8fbea8e5",
+        "name": "Google",
+        "type": "Search Engine",
+        "url": "https://www.google.com",
+        "created_at": "2023-09-22T20:00:03.821Z",
+        "updated_at": "2023-09-22T22:30:59.334Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17d23ffe-4520-49b7-a40e-c57bda0ddf1b",
+        "name": "Facebook",
+        "type": "Social Media",
+        "url": "https://www.facebook.com",
+        "created_at": "2023-09-23T03:36:34.945Z",
+        "updated_at": "2023-09-22T21:16:52.883Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83bafa08-102b-472d-ae75-26d5c3b8e26e",
+        "name": "Twitter",
+        "type": "News Website",
+        "url": "https://www.twitter.com",
+        "created_at": "2023-09-23T03:13:55.883Z",
+        "updated_at": "2023-09-23T02:55:37.238Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8455fe4-26be-4d77-a9b7-e51b634f7e08",
+        "name": "Instagram",
+        "type": "E-commerce",
+        "url": "https://www.instagram.com",
+        "created_at": "2023-09-23T08:04:06.805Z",
+        "updated_at": "2023-09-23T12:58:58.258Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b60899d2-5480-4b28-99f1-fdfeafb9bb80",
+        "name": "LinkedIn",
+        "type": "Blog",
+        "url": "https://www.linkedin.com",
+        "created_at": "2023-09-23T05:56:33.847Z",
+        "updated_at": "2023-09-23T05:14:32.019Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "ffb78bec-bb38-4fef-b7dd-16b504b081d3",
+        "invoice_number": "INV-001",
+        "date": "2023-09-22T18:34:46.605Z",
+        "total_amount": 41756,
+        "status": "Paid",
+        "due_date": "2023-09-22T21:03:17.399Z",
+        "created_at": "2023-09-23T01:11:57.127Z",
+        "updated_at": "2023-09-22T23:56:30.554Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95de0d63-cfe4-4903-a14a-d3c37e838ce2",
+        "invoice_number": "INV-002",
+        "date": "2023-09-22T16:43:10.496Z",
+        "total_amount": 73326,
+        "status": "Pending",
+        "due_date": "2023-09-22T17:14:23.995Z",
+        "created_at": "2023-09-23T08:34:04.752Z",
+        "updated_at": "2023-09-22T23:23:02.842Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c425e2c4-f883-4e01-a1b0-c3153c0957d9",
+        "invoice_number": "INV-003",
+        "date": "2023-09-23T02:22:22.856Z",
+        "total_amount": 11268,
+        "status": "Overdue",
+        "due_date": "2023-09-23T01:06:40.432Z",
+        "created_at": "2023-09-22T22:15:13.498Z",
+        "updated_at": "2023-09-23T03:26:50.302Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "19605bb3-15ab-4619-bd10-8b4076c7f077",
+        "invoice_number": "INV-004",
+        "date": "2023-09-23T02:03:43.060Z",
+        "total_amount": 73790,
+        "status": "Cancelled",
+        "due_date": "2023-09-23T09:13:28.100Z",
+        "created_at": "2023-09-23T12:33:33.235Z",
+        "updated_at": "2023-09-22T22:24:58.071Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ca4e327-1abc-49a5-a5ff-be7f5e6582b2",
+        "invoice_number": "INV-005",
+        "date": "2023-09-23T02:57:07.000Z",
+        "total_amount": 33954,
+        "status": "Refunded",
+        "due_date": "2023-09-22T18:16:16.006Z",
+        "created_at": "2023-09-22T17:06:27.775Z",
+        "updated_at": "2023-09-22T21:37:39.826Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "source_invoice": [
+      {
+        "id": "20fa27cf-acd4-4e79-b8fc-96ca00431305",
+        "created_at": "2023-09-22T19:40:17.046Z",
+        "updated_at": "2023-09-23T10:33:21.941Z",
+        "invoice_id": "95de0d63-cfe4-4903-a14a-d3c37e838ce2",
+        "source_id": "17d23ffe-4520-49b7-a40e-c57bda0ddf1b"
+      },
+      {
+        "id": "5339fba6-b827-4cf5-9659-35a34fd5deb0",
+        "created_at": "2023-09-22T18:43:11.219Z",
+        "updated_at": "2023-09-23T07:02:21.756Z",
+        "invoice_id": "95de0d63-cfe4-4903-a14a-d3c37e838ce2",
+        "source_id": "b60899d2-5480-4b28-99f1-fdfeafb9bb80"
+      },
+      {
+        "id": "3cdc44ea-d397-4dd1-89fd-3b3e3c9f8272",
+        "created_at": "2023-09-23T03:41:04.677Z",
+        "updated_at": "2023-09-23T02:11:23.566Z",
+        "invoice_id": "ffb78bec-bb38-4fef-b7dd-16b504b081d3",
+        "source_id": "17d23ffe-4520-49b7-a40e-c57bda0ddf1b"
+      },
+      {
+        "id": "5a94c88b-d809-4e1a-9406-164f72f72cca",
+        "created_at": "2023-09-23T10:59:20.163Z",
+        "updated_at": "2023-09-22T18:45:10.365Z",
+        "invoice_id": "1ca4e327-1abc-49a5-a5ff-be7f5e6582b2",
+        "source_id": "83bafa08-102b-472d-ae75-26d5c3b8e26e"
+      },
+      {
+        "id": "1a3f2493-6dc3-48e2-af34-eb18b2b50d86",
+        "created_at": "2023-09-23T10:47:36.796Z",
+        "updated_at": "2023-09-22T15:33:03.826Z",
+        "invoice_id": "19605bb3-15ab-4619-bd10-8b4076c7f077",
+        "source_id": "83bafa08-102b-472d-ae75-26d5c3b8e26e"
+      }
+    ],
+    "invoice_item": [
+      {
+        "id": "8fcf02a1-ca75-4019-9692-601895f4dba8",
+        "description": "Product A",
+        "quantity": 48251,
+        "price": 62882,
+        "total": 6772,
+        "created_at": "2023-09-23T04:34:21.887Z",
+        "updated_at": "2023-09-22T14:43:18.698Z",
+        "invoice_id": "c425e2c4-f883-4e01-a1b0-c3153c0957d9"
+      },
+      {
+        "id": "560ab105-0a53-4f99-bf85-f1b52a8aae31",
+        "description": "Service B",
+        "quantity": 31187,
+        "price": 84641,
+        "total": 46576,
+        "created_at": "2023-09-23T02:58:07.520Z",
+        "updated_at": "2023-09-22T23:01:35.381Z",
+        "invoice_id": "95de0d63-cfe4-4903-a14a-d3c37e838ce2"
+      },
+      {
+        "id": "8f361455-e6c2-4685-b6f7-a19ff2de708c",
+        "description": "Item C",
+        "quantity": 31719,
+        "price": 30847,
+        "total": 53249,
+        "created_at": "2023-09-23T04:26:33.795Z",
+        "updated_at": "2023-09-23T14:20:55.729Z",
+        "invoice_id": "95de0d63-cfe4-4903-a14a-d3c37e838ce2"
+      },
+      {
+        "id": "4d2639f2-63c8-446b-b1a0-7f41e5514a39",
+        "description": "Accessory D",
+        "quantity": 91716,
+        "price": 3671,
+        "total": 7279,
+        "created_at": "2023-09-23T02:30:04.746Z",
+        "updated_at": "2023-09-23T03:41:49.222Z",
+        "invoice_id": "ffb78bec-bb38-4fef-b7dd-16b504b081d3"
+      },
+      {
+        "id": "da6c9b6e-1896-437b-abe9-9f873ca7622a",
+        "description": "Part E",
+        "quantity": 98786,
+        "price": 34118,
+        "total": 95441,
+        "created_at": "2023-09-23T05:00:51.898Z",
+        "updated_at": "2023-09-23T09:24:30.850Z",
+        "invoice_id": "95de0d63-cfe4-4903-a14a-d3c37e838ce2"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "32fa12c9-75ed-4764-9997-43f15af81a10",
+        "email": "Ebony32@roq.tech",
+        "firstName": "Arnaldo",
+        "lastName": "Corkery",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/644.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4d8adbeb-f22d-416e-a095-45bd22444203",
+        "email": "Brooke46@roq.tech",
+        "firstName": "Dane",
+        "lastName": "Tromp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/761.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9ae675d6-b004-4583-9195-8d1143efcf79",
+        "email": "Ellen.Kilback90@roq.tech",
+        "firstName": "Crawford",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15507732",
+        "tenantId": null
+      },
+      {
+        "reference": "083adbca-f9fa-49f2-a060-993daaaf7756",
+        "email": "Oran_McLaughlin38@roq.tech",
+        "firstName": "Francisco",
+        "lastName": "Franey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84860900",
+        "tenantId": null
+      },
+      {
+        "reference": "c3e76fd9-1c5d-41ca-84fb-4a8a4a00ad83",
+        "email": "Douglas_McGlynn-Kuphal@roq.tech",
+        "firstName": "Leopold",
+        "lastName": "Bednar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6802639",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "source": [
+      {
+        "id": "3382c0c1-0dac-4dc2-8aa2-aa62e29cc35b",
+        "name": "Google",
+        "type": "Search Engine",
+        "url": "www.google.com",
+        "created_at": "2023-09-22T15:31:06.981Z",
+        "updated_at": "2023-09-23T11:29:57.356Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fde88255-9449-49c4-b1b5-30b9fe45290d",
+        "name": "Facebook",
+        "type": "Social Media",
+        "url": "www.facebook.com",
+        "created_at": "2023-09-22T15:11:22.767Z",
+        "updated_at": "2023-09-23T12:47:26.858Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6eeb140e-9e68-4b00-a8a4-ffb268207af5",
+        "name": "Twitter",
+        "type": "News Website",
+        "url": "www.twitter.com",
+        "created_at": "2023-09-22T14:52:27.566Z",
+        "updated_at": "2023-09-23T10:10:01.595Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af2f8d14-6755-4c25-bfc1-8ac4d10357bf",
+        "name": "Instagram",
+        "type": "E-commerce",
+        "url": "www.instagram.com",
+        "created_at": "2023-09-23T05:45:46.533Z",
+        "updated_at": "2023-09-22T15:17:02.277Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b490828-5ccc-4ccc-93a3-62e2b526a4c4",
+        "name": "LinkedIn",
+        "type": "Blog",
+        "url": "www.linkedin.com",
+        "created_at": "2023-09-23T13:53:07.268Z",
+        "updated_at": "2023-09-22T22:39:54.437Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "d77f7d6f-d00b-442c-bd50-672e25a184a4",
+        "invoice_number": "INV-001",
+        "date": "2023-09-23T05:26:50.583Z",
+        "total_amount": 15746,
+        "status": "Paid",
+        "due_date": "2023-09-23T10:10:25.560Z",
+        "created_at": "2023-09-22T19:14:52.254Z",
+        "updated_at": "2023-09-23T01:26:53.678Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6deb8a21-2371-4831-bc9d-c743a2f13dc3",
+        "invoice_number": "INV-002",
+        "date": "2023-09-22T21:45:18.280Z",
+        "total_amount": 99013,
+        "status": "Pending",
+        "due_date": "2023-09-22T23:08:03.843Z",
+        "created_at": "2023-09-23T00:57:16.409Z",
+        "updated_at": "2023-09-22T15:02:47.761Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35948ec6-ee35-4ff5-a53d-b7e51bbb2ff7",
+        "invoice_number": "INV-003",
+        "date": "2023-09-22T15:50:32.151Z",
+        "total_amount": 45774,
+        "status": "Overdue",
+        "due_date": "2023-09-22T23:43:30.522Z",
+        "created_at": "2023-09-23T00:06:04.767Z",
+        "updated_at": "2023-09-22T19:10:16.966Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "009d3162-34d3-4d46-84c9-be7be8f5d3b4",
+        "invoice_number": "INV-004",
+        "date": "2023-09-23T00:46:36.567Z",
+        "total_amount": 73539,
+        "status": "Cancelled",
+        "due_date": "2023-09-23T09:19:55.507Z",
+        "created_at": "2023-09-23T13:20:06.813Z",
+        "updated_at": "2023-09-22T19:57:54.971Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3498def5-618b-4bdc-bca8-ca2210b61b2b",
+        "invoice_number": "INV-005",
+        "date": "2023-09-23T11:44:07.554Z",
+        "total_amount": 11783,
+        "status": "Refunded",
+        "due_date": "2023-09-22T18:02:04.426Z",
+        "created_at": "2023-09-23T06:48:49.204Z",
+        "updated_at": "2023-09-23T01:09:36.370Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "source_invoice": [
+      {
+        "id": "85c80098-758b-4e5a-ae8d-77c3e0349ad7",
+        "created_at": "2023-09-23T10:32:30.239Z",
+        "updated_at": "2023-09-23T07:50:25.433Z",
+        "invoice_id": "3498def5-618b-4bdc-bca8-ca2210b61b2b",
+        "source_id": "3382c0c1-0dac-4dc2-8aa2-aa62e29cc35b"
+      },
+      {
+        "id": "e46e4434-730c-4571-911b-9a7a96be6723",
+        "created_at": "2023-09-23T03:54:31.515Z",
+        "updated_at": "2023-09-23T05:04:01.542Z",
+        "invoice_id": "6deb8a21-2371-4831-bc9d-c743a2f13dc3",
+        "source_id": "9b490828-5ccc-4ccc-93a3-62e2b526a4c4"
+      },
+      {
+        "id": "66a410d1-4a88-415c-964c-da897931970f",
+        "created_at": "2023-09-22T20:17:41.362Z",
+        "updated_at": "2023-09-23T14:14:11.068Z",
+        "invoice_id": "3498def5-618b-4bdc-bca8-ca2210b61b2b",
+        "source_id": "3382c0c1-0dac-4dc2-8aa2-aa62e29cc35b"
+      },
+      {
+        "id": "a3ae2e5d-3c34-4fcd-aa69-1be614181da0",
+        "created_at": "2023-09-23T02:42:06.751Z",
+        "updated_at": "2023-09-23T08:08:48.650Z",
+        "invoice_id": "009d3162-34d3-4d46-84c9-be7be8f5d3b4",
+        "source_id": "3382c0c1-0dac-4dc2-8aa2-aa62e29cc35b"
+      },
+      {
+        "id": "6c2425b1-2ea3-4587-b433-43260074017f",
+        "created_at": "2023-09-23T13:00:32.338Z",
+        "updated_at": "2023-09-23T13:02:46.546Z",
+        "invoice_id": "d77f7d6f-d00b-442c-bd50-672e25a184a4",
+        "source_id": "6eeb140e-9e68-4b00-a8a4-ffb268207af5"
+      }
+    ],
+    "invoice_item": [
+      {
+        "id": "24d4db52-43e2-4cd6-b16c-feafee5716a7",
+        "description": "Product A",
+        "quantity": 9252,
+        "price": 15421,
+        "total": 36718,
+        "created_at": "2023-09-23T05:53:23.955Z",
+        "updated_at": "2023-09-22T18:38:53.331Z",
+        "invoice_id": "d77f7d6f-d00b-442c-bd50-672e25a184a4"
+      },
+      {
+        "id": "ef69ca25-defa-47c7-bf46-6c9a0e425819",
+        "description": "Service B",
+        "quantity": 90836,
+        "price": 17686,
+        "total": 41757,
+        "created_at": "2023-09-22T19:08:53.249Z",
+        "updated_at": "2023-09-22T21:56:15.546Z",
+        "invoice_id": "35948ec6-ee35-4ff5-a53d-b7e51bbb2ff7"
+      },
+      {
+        "id": "64a8e4db-e177-452d-9e22-385fec7d7c04",
+        "description": "Item C",
+        "quantity": 73092,
+        "price": 40904,
+        "total": 2335,
+        "created_at": "2023-09-22T19:56:02.703Z",
+        "updated_at": "2023-09-22T22:27:10.538Z",
+        "invoice_id": "3498def5-618b-4bdc-bca8-ca2210b61b2b"
+      },
+      {
+        "id": "2bd07d9c-fddc-49f8-9014-c1f1fa80f7b5",
+        "description": "Accessory D",
+        "quantity": 69603,
+        "price": 63382,
+        "total": 30570,
+        "created_at": "2023-09-22T22:12:16.723Z",
+        "updated_at": "2023-09-23T12:44:03.043Z",
+        "invoice_id": "3498def5-618b-4bdc-bca8-ca2210b61b2b"
+      },
+      {
+        "id": "71cfdf2a-80fe-4e46-8915-2afda4599b3d",
+        "description": "Package E",
+        "quantity": 64004,
+        "price": 40109,
+        "total": 63993,
+        "created_at": "2023-09-23T06:54:17.253Z",
+        "updated_at": "2023-09-23T05:51:32.079Z",
+        "invoice_id": "3498def5-618b-4bdc-bca8-ca2210b61b2b"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "730026a9-3cce-4861-9120-1bf963a1240c",
+        "email": "Harvey_Reinger88@roq.tech",
+        "firstName": "Savanah",
+        "lastName": "Nader",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1022.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4c99e80d-11ed-434e-b30b-880607554fd4",
+        "email": "Webster_Stokes@roq.tech",
+        "firstName": "Favian",
+        "lastName": "Aufderhar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/648.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1e0bc969-641a-4d03-8cb5-f616051bfa83",
+        "email": "Maritza.OHara@roq.tech",
+        "firstName": "Johnpaul",
+        "lastName": "Beer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/279.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9ca39579-757a-4533-8f7b-c0143737feff",
+        "email": "Ulices_McCullough17@roq.tech",
+        "firstName": "Jocelyn",
+        "lastName": "Weissnat-Tromp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29150577",
+        "tenantId": null
+      },
+      {
+        "reference": "a7be10c5-7692-4b2c-a42e-c4f2bd5ed525",
+        "email": "Jay_Lemke81@roq.tech",
+        "firstName": "Ashtyn",
+        "lastName": "Morissette",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1048.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "source": [
+      {
+        "id": "26e862f2-e23e-49cc-a1d4-2990b1cab639",
+        "name": "Google",
+        "type": "Search Engine",
+        "url": "https://www.google.com",
+        "created_at": "2023-09-22T22:50:59.991Z",
+        "updated_at": "2023-09-23T12:21:46.954Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47cfb21b-9377-4fe6-941d-f230eb442492",
+        "name": "Facebook",
+        "type": "Social Media",
+        "url": "https://www.facebook.com",
+        "created_at": "2023-09-22T14:24:11.550Z",
+        "updated_at": "2023-09-23T06:17:51.465Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88ac57c1-b379-40c7-91db-cf68f4140fc2",
+        "name": "Twitter",
+        "type": "News Website",
+        "url": "https://www.twitter.com",
+        "created_at": "2023-09-22T16:46:13.285Z",
+        "updated_at": "2023-09-23T04:51:53.706Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ebed789-06d4-4eb1-b91c-07bce6d2b50d",
+        "name": "LinkedIn",
+        "type": "Blog",
+        "url": "https://www.linkedin.com",
+        "created_at": "2023-09-23T00:23:02.435Z",
+        "updated_at": "2023-09-22T18:25:18.404Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d418947e-ec21-4a6c-8d30-bee5fc5cf4c4",
+        "name": "Instagram",
+        "type": "Video Sharing",
+        "url": "https://www.instagram.com",
+        "created_at": "2023-09-23T03:58:41.222Z",
+        "updated_at": "2023-09-22T16:16:52.518Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "1d9e2bb5-9a0f-4592-85d5-f5e8fd13f9b9",
+        "invoice_number": "INV-001",
+        "date": "2023-09-23T13:15:46.819Z",
+        "total_amount": 38235,
+        "status": "Paid",
+        "due_date": "2023-09-23T11:04:14.140Z",
+        "created_at": "2023-09-23T11:03:38.859Z",
+        "updated_at": "2023-09-23T03:58:03.482Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7111678-9398-4578-85e6-86c6da839e3f",
+        "invoice_number": "INV-002",
+        "date": "2023-09-23T00:31:50.549Z",
+        "total_amount": 36536,
+        "status": "Pending",
+        "due_date": "2023-09-22T15:32:40.739Z",
+        "created_at": "2023-09-23T11:49:47.884Z",
+        "updated_at": "2023-09-22T17:04:53.464Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7275489b-cc7d-4028-b2e6-7ecea17d7258",
+        "invoice_number": "INV-003",
+        "date": "2023-09-22T17:43:29.382Z",
+        "total_amount": 15512,
+        "status": "Cancelled",
+        "due_date": "2023-09-23T11:14:28.207Z",
+        "created_at": "2023-09-23T11:28:05.443Z",
+        "updated_at": "2023-09-23T09:40:25.576Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "070d6663-1a68-4a93-9035-256f5c81e1e6",
+        "invoice_number": "INV-004",
+        "date": "2023-09-23T12:10:45.812Z",
+        "total_amount": 28005,
+        "status": "Overdue",
+        "due_date": "2023-09-23T04:00:43.706Z",
+        "created_at": "2023-09-23T13:16:23.101Z",
+        "updated_at": "2023-09-23T01:03:29.995Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b809b935-67dd-4551-8682-91c90b63e178",
+        "invoice_number": "INV-005",
+        "date": "2023-09-22T17:03:54.917Z",
+        "total_amount": 79983,
+        "status": "Draft",
+        "due_date": "2023-09-22T15:19:11.781Z",
+        "created_at": "2023-09-22T15:58:35.923Z",
+        "updated_at": "2023-09-23T11:54:40.578Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "source_invoice": [
+      {
+        "id": "a09ef2c9-06bd-4d97-b3e9-97a0249ef274",
+        "created_at": "2023-09-23T01:39:20.670Z",
+        "updated_at": "2023-09-22T14:52:20.045Z",
+        "invoice_id": "b809b935-67dd-4551-8682-91c90b63e178",
+        "source_id": "88ac57c1-b379-40c7-91db-cf68f4140fc2"
+      },
+      {
+        "id": "15d47314-9442-4083-85e7-337ee76fdef1",
+        "created_at": "2023-09-23T04:27:55.115Z",
+        "updated_at": "2023-09-23T06:56:41.103Z",
+        "invoice_id": "b809b935-67dd-4551-8682-91c90b63e178",
+        "source_id": "26e862f2-e23e-49cc-a1d4-2990b1cab639"
+      },
+      {
+        "id": "59b8e56b-62ec-4617-b670-00ad0b95de01",
+        "created_at": "2023-09-23T07:48:52.534Z",
+        "updated_at": "2023-09-22T15:35:34.350Z",
+        "invoice_id": "d7111678-9398-4578-85e6-86c6da839e3f",
+        "source_id": "d418947e-ec21-4a6c-8d30-bee5fc5cf4c4"
+      },
+      {
+        "id": "58f31b3c-13e8-4762-963a-2f91bbe08ea3",
+        "created_at": "2023-09-22T17:57:56.707Z",
+        "updated_at": "2023-09-23T11:44:20.799Z",
+        "invoice_id": "b809b935-67dd-4551-8682-91c90b63e178",
+        "source_id": "26e862f2-e23e-49cc-a1d4-2990b1cab639"
+      },
+      {
+        "id": "d0223b98-de21-4e17-9440-c30654000a1a",
+        "created_at": "2023-09-23T06:52:33.584Z",
+        "updated_at": "2023-09-22T17:36:02.162Z",
+        "invoice_id": "b809b935-67dd-4551-8682-91c90b63e178",
+        "source_id": "88ac57c1-b379-40c7-91db-cf68f4140fc2"
+      }
+    ],
+    "invoice_item": [
+      {
+        "id": "fc5e74ff-4939-4fee-b041-34b71fd2f876",
+        "description": "Product A",
+        "quantity": 9999,
+        "price": 16188,
+        "total": 92415,
+        "created_at": "2023-09-22T14:49:20.693Z",
+        "updated_at": "2023-09-23T14:17:14.950Z",
+        "invoice_id": "d7111678-9398-4578-85e6-86c6da839e3f"
+      },
+      {
+        "id": "f1eff751-bedd-41d1-956f-a0bb4bf60259",
+        "description": "Product B",
+        "quantity": 71660,
+        "price": 98960,
+        "total": 46497,
+        "created_at": "2023-09-23T14:12:24.440Z",
+        "updated_at": "2023-09-22T17:16:08.379Z",
+        "invoice_id": "070d6663-1a68-4a93-9035-256f5c81e1e6"
+      },
+      {
+        "id": "0db5194c-2c53-4c4b-9565-04c133ad6e46",
+        "description": "Product C",
+        "quantity": 73994,
+        "price": 90581,
+        "total": 75549,
+        "created_at": "2023-09-23T01:33:25.552Z",
+        "updated_at": "2023-09-22T22:55:27.198Z",
+        "invoice_id": "070d6663-1a68-4a93-9035-256f5c81e1e6"
+      },
+      {
+        "id": "50a37964-5ea4-4ef3-947e-ee314af0374e",
+        "description": "Product D",
+        "quantity": 81627,
+        "price": 75394,
+        "total": 42533,
+        "created_at": "2023-09-23T14:16:02.082Z",
+        "updated_at": "2023-09-22T18:27:18.766Z",
+        "invoice_id": "b809b935-67dd-4551-8682-91c90b63e178"
+      },
+      {
+        "id": "a6bf891a-ffe0-48c4-b3fc-468d4d71815f",
+        "description": "Product E",
+        "quantity": 37889,
+        "price": 79332,
+        "total": 91372,
+        "created_at": "2023-09-23T09:46:24.705Z",
+        "updated_at": "2023-09-22T17:42:07.115Z",
+        "invoice_id": "070d6663-1a68-4a93-9035-256f5c81e1e6"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6cae5b0b-a7be-4a20-93b2-909f7e7eb2d2",
+        "email": "Terry.Rippin58@roq.tech",
+        "firstName": "Katlynn",
+        "lastName": "Ernser",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/883.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fc821be2-7438-4948-81d7-a480f0e4f254",
+        "email": "Dale.Kautzer39@roq.tech",
+        "firstName": "Florian",
+        "lastName": "Buckridge",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28078744",
+        "tenantId": null
+      },
+      {
+        "reference": "1cb68d5c-15c3-46c8-b8ed-133abe384951",
+        "email": "Tracy.Treutel@roq.tech",
+        "firstName": "Efren",
+        "lastName": "Powlowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/896.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d8d86576-70ad-48fb-96f4-89efe59f3bbd",
+        "email": "Geraldine_Ledner31@roq.tech",
+        "firstName": "Otto",
+        "lastName": "Rodriguez",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58288257",
+        "tenantId": null
+      },
+      {
+        "reference": "9318729c-0794-46d0-90c8-4482e972bef1",
+        "email": "Hermina.Bartell80@roq.tech",
+        "firstName": "Velda",
+        "lastName": "Feeney",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/815.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "source": [
+      {
+        "id": "17d1a604-3339-4dec-9ab7-2c48e4793e1d",
+        "name": "Source A",
+        "type": "Type A",
+        "url": "www.sourcea.com",
+        "created_at": "2023-09-22T22:12:03.312Z",
+        "updated_at": "2023-09-22T19:45:05.415Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18b5d9b9-e187-413e-a454-dd8a2d4b2193",
+        "name": "Source B",
+        "type": "Type B",
+        "url": "www.sourceb.com",
+        "created_at": "2023-09-22T18:44:03.765Z",
+        "updated_at": "2023-09-22T17:18:56.700Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ee3696b-2083-454f-8508-95502d889c36",
+        "name": "Source C",
+        "type": "Type C",
+        "url": "www.sourcec.com",
+        "created_at": "2023-09-23T02:16:09.602Z",
+        "updated_at": "2023-09-23T08:36:09.363Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7fe8d21-d2a2-4781-9c28-a6237977e997",
+        "name": "Source D",
+        "type": "Type D",
+        "url": "www.sourced.com",
+        "created_at": "2023-09-22T23:09:21.051Z",
+        "updated_at": "2023-09-23T13:38:17.968Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2027b982-3363-415e-8ad9-fcea7f116696",
+        "name": "Source E",
+        "type": "Type E",
+        "url": "www.sourcee.com",
+        "created_at": "2023-09-23T03:39:00.125Z",
+        "updated_at": "2023-09-22T15:57:09.115Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "7c1d9146-2ffb-4eac-85fa-aad6d55146e9",
+        "invoice_number": "INV-001",
+        "date": "2023-09-22T22:03:33.536Z",
+        "total_amount": 10896,
+        "status": "Paid",
+        "due_date": "2023-09-23T03:40:55.587Z",
+        "created_at": "2023-09-23T03:17:44.235Z",
+        "updated_at": "2023-09-23T11:43:44.973Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e03ed54e-edaf-4110-b866-d85c52fc0301",
+        "invoice_number": "INV-002",
+        "date": "2023-09-22T22:25:21.405Z",
+        "total_amount": 75755,
+        "status": "Pending",
+        "due_date": "2023-09-23T05:32:48.699Z",
+        "created_at": "2023-09-22T23:10:23.463Z",
+        "updated_at": "2023-09-22T22:02:37.286Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "85220cbe-c677-460f-8490-cae529cf1fe7",
+        "invoice_number": "INV-003",
+        "date": "2023-09-23T08:49:22.404Z",
+        "total_amount": 94884,
+        "status": "Overdue",
+        "due_date": "2023-09-22T17:25:19.015Z",
+        "created_at": "2023-09-23T05:07:50.971Z",
+        "updated_at": "2023-09-23T13:51:44.017Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab93cbb5-9bde-4123-86eb-c997777d0e02",
+        "invoice_number": "INV-004",
+        "date": "2023-09-23T03:52:13.588Z",
+        "total_amount": 24495,
+        "status": "Cancelled",
+        "due_date": "2023-09-23T12:13:51.832Z",
+        "created_at": "2023-09-23T13:57:52.009Z",
+        "updated_at": "2023-09-22T15:19:54.525Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cdc493fe-8eb9-49d2-9dc5-c9a72ea9b408",
+        "invoice_number": "INV-005",
+        "date": "2023-09-23T11:35:22.985Z",
+        "total_amount": 99105,
+        "status": "Draft",
+        "due_date": "2023-09-23T08:10:04.342Z",
+        "created_at": "2023-09-22T19:15:49.326Z",
+        "updated_at": "2023-09-23T10:06:18.554Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "source_invoice": [
+      {
+        "id": "fc9ca6ab-9d5b-4012-ab92-87865a81d5b3",
+        "created_at": "2023-09-23T03:12:33.311Z",
+        "updated_at": "2023-09-22T17:43:58.669Z",
+        "invoice_id": "85220cbe-c677-460f-8490-cae529cf1fe7",
+        "source_id": "2027b982-3363-415e-8ad9-fcea7f116696"
+      },
+      {
+        "id": "72b9d16d-4a6f-47fe-92a1-6e3e1f2bc5e1",
+        "created_at": "2023-09-22T17:51:51.365Z",
+        "updated_at": "2023-09-23T11:03:44.383Z",
+        "invoice_id": "85220cbe-c677-460f-8490-cae529cf1fe7",
+        "source_id": "2ee3696b-2083-454f-8508-95502d889c36"
+      },
+      {
+        "id": "2fa01267-4ce6-48b3-9928-88e25b5424b6",
+        "created_at": "2023-09-22T19:01:30.940Z",
+        "updated_at": "2023-09-22T22:13:16.851Z",
+        "invoice_id": "e03ed54e-edaf-4110-b866-d85c52fc0301",
+        "source_id": "17d1a604-3339-4dec-9ab7-2c48e4793e1d"
+      },
+      {
+        "id": "76394911-dbbb-4a07-97da-abf0622d7ac8",
+        "created_at": "2023-09-22T23:46:31.489Z",
+        "updated_at": "2023-09-23T00:04:03.057Z",
+        "invoice_id": "e03ed54e-edaf-4110-b866-d85c52fc0301",
+        "source_id": "d7fe8d21-d2a2-4781-9c28-a6237977e997"
+      },
+      {
+        "id": "b261ea07-b017-4840-baf1-6ed111e6698d",
+        "created_at": "2023-09-22T20:48:28.595Z",
+        "updated_at": "2023-09-22T23:32:09.408Z",
+        "invoice_id": "cdc493fe-8eb9-49d2-9dc5-c9a72ea9b408",
+        "source_id": "2ee3696b-2083-454f-8508-95502d889c36"
+      }
+    ],
+    "invoice_item": [
+      {
+        "id": "90b41e63-136a-4f42-ae8e-ea1212fb3a37",
+        "description": "Item A",
+        "quantity": 43734,
+        "price": 39207,
+        "total": 1011,
+        "created_at": "2023-09-23T04:12:19.953Z",
+        "updated_at": "2023-09-22T20:45:22.542Z",
+        "invoice_id": "cdc493fe-8eb9-49d2-9dc5-c9a72ea9b408"
+      },
+      {
+        "id": "63b3a63e-3eb4-4a35-bc54-9ec1687440c0",
+        "description": "Item B",
+        "quantity": 34078,
+        "price": 30067,
+        "total": 95283,
+        "created_at": "2023-09-23T02:39:29.223Z",
+        "updated_at": "2023-09-22T19:22:05.751Z",
+        "invoice_id": "7c1d9146-2ffb-4eac-85fa-aad6d55146e9"
+      },
+      {
+        "id": "1a94d335-529b-49bc-8ca8-e7607c103280",
+        "description": "Item C",
+        "quantity": 153,
+        "price": 84022,
+        "total": 69755,
+        "created_at": "2023-09-23T05:18:10.284Z",
+        "updated_at": "2023-09-23T13:46:56.918Z",
+        "invoice_id": "ab93cbb5-9bde-4123-86eb-c997777d0e02"
+      },
+      {
+        "id": "e793aee3-9961-404e-b74c-2037b9c1dc8c",
+        "description": "Item D",
+        "quantity": 24727,
+        "price": 42043,
+        "total": 73909,
+        "created_at": "2023-09-23T04:34:22.477Z",
+        "updated_at": "2023-09-23T12:48:51.634Z",
+        "invoice_id": "cdc493fe-8eb9-49d2-9dc5-c9a72ea9b408"
+      },
+      {
+        "id": "6b52c84c-3ee7-48cc-8f09-c4d3e5698414",
+        "description": "Item E",
+        "quantity": 68368,
+        "price": 99007,
+        "total": 31329,
+        "created_at": "2023-09-23T09:41:00.198Z",
+        "updated_at": "2023-09-22T16:52:02.324Z",
+        "invoice_id": "e03ed54e-edaf-4110-b866-d85c52fc0301"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2065844e-f81d-4e58-a13d-d94acdef18eb",
+        "email": "Antonetta_Jakubowski@roq.tech",
+        "firstName": "Hailie",
+        "lastName": "Gutmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61917088",
+        "tenantId": null
+      },
+      {
+        "reference": "3bea7484-e301-4386-807b-8cbfed9ec48c",
+        "email": "Joel_Hills@roq.tech",
+        "firstName": "Jettie",
+        "lastName": "Littel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1132.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "34486dba-33a2-47a3-85a6-24663db0c4f6",
+        "email": "Tamia_Nader4@roq.tech",
+        "firstName": "Gerardo",
+        "lastName": "Walter",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/200.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9e5479c6-481e-42d1-ab86-3396fd916c59",
+        "email": "Nathaniel.Kassulke-Haley49@roq.tech",
+        "firstName": "Lolita",
+        "lastName": "O'Kon-Collier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/476.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cdd664fb-3b8c-4001-969a-4202cb8094c8",
+        "email": "Lottie_Ledner@roq.tech",
+        "firstName": "Norwood",
+        "lastName": "Beahan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19081504",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "source": [
+      {
+        "id": "749184d3-bcb9-4d48-bf4c-b85d9a1d3218",
+        "name": "Google",
+        "type": "Search Engine",
+        "url": "https://www.google.com",
+        "created_at": "2023-09-22T21:58:08.690Z",
+        "updated_at": "2023-09-23T08:21:45.283Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e162de54-66f7-44cc-8ce9-ed5ca62d211a",
+        "name": "Facebook",
+        "type": "Social Media",
+        "url": "https://www.facebook.com",
+        "created_at": "2023-09-22T15:16:30.927Z",
+        "updated_at": "2023-09-23T02:15:29.987Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87279d13-2eb7-440e-90b6-2c1048ddfb98",
+        "name": "Twitter",
+        "type": "Microblogging",
+        "url": "https://www.twitter.com",
+        "created_at": "2023-09-22T18:37:44.718Z",
+        "updated_at": "2023-09-23T00:59:40.810Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d954174-e78a-42d2-a78c-a6af838c5984",
+        "name": "LinkedIn",
+        "type": "Professional Network",
+        "url": "https://www.linkedin.com",
+        "created_at": "2023-09-23T04:00:42.226Z",
+        "updated_at": "2023-09-22T17:30:56.821Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca9858c0-14dc-4118-912c-71c8fab6d8e7",
+        "name": "Instagram",
+        "type": "Photo Sharing",
+        "url": "https://www.instagram.com",
+        "created_at": "2023-09-22T18:19:33.951Z",
+        "updated_at": "2023-09-22T18:25:25.967Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "16f5d4cc-3601-40a6-ae0b-922cc1dfdb05",
+        "invoice_number": "INV-001",
+        "date": "2023-09-23T07:00:28.033Z",
+        "total_amount": 4779,
+        "status": "Paid",
+        "due_date": "2023-09-22T18:10:38.854Z",
+        "created_at": "2023-09-22T23:05:04.137Z",
+        "updated_at": "2023-09-22T21:18:19.297Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "681cfe6d-9755-45f9-ac4b-c057f5434062",
+        "invoice_number": "INV-002",
+        "date": "2023-09-23T11:41:09.467Z",
+        "total_amount": 11224,
+        "status": "Pending",
+        "due_date": "2023-09-23T02:13:38.282Z",
+        "created_at": "2023-09-23T09:16:20.919Z",
+        "updated_at": "2023-09-23T06:19:49.679Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5d2f0c2-2458-4121-98a0-a4df029c2548",
+        "invoice_number": "INV-003",
+        "date": "2023-09-22T20:14:31.926Z",
+        "total_amount": 64835,
+        "status": "Overdue",
+        "due_date": "2023-09-23T08:18:41.412Z",
+        "created_at": "2023-09-23T01:15:59.487Z",
+        "updated_at": "2023-09-22T21:16:53.675Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2626bc1-62d1-45f1-a004-d3d1d5a2ceaf",
+        "invoice_number": "INV-004",
+        "date": "2023-09-23T02:55:37.306Z",
+        "total_amount": 81419,
+        "status": "Cancelled",
+        "due_date": "2023-09-23T04:22:53.518Z",
+        "created_at": "2023-09-23T09:51:41.699Z",
+        "updated_at": "2023-09-22T21:06:55.761Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c615a9d-5f00-4543-88c3-eb50b41001ca",
+        "invoice_number": "INV-005",
+        "date": "2023-09-23T04:50:07.399Z",
+        "total_amount": 70819,
+        "status": "Draft",
+        "due_date": "2023-09-23T02:04:34.822Z",
+        "created_at": "2023-09-22T22:36:04.052Z",
+        "updated_at": "2023-09-23T11:49:44.349Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "source_invoice": [
+      {
+        "id": "e156284e-edb0-4fda-9469-fb39dce1924f",
+        "created_at": "2023-09-23T14:08:05.048Z",
+        "updated_at": "2023-09-23T02:18:03.341Z",
+        "invoice_id": "16f5d4cc-3601-40a6-ae0b-922cc1dfdb05",
+        "source_id": "ca9858c0-14dc-4118-912c-71c8fab6d8e7"
+      },
+      {
+        "id": "c4b5667b-20d8-484a-8cb6-7ad6b76c0c6e",
+        "created_at": "2023-09-22T21:51:12.889Z",
+        "updated_at": "2023-09-22T22:14:25.094Z",
+        "invoice_id": "3c615a9d-5f00-4543-88c3-eb50b41001ca",
+        "source_id": "e162de54-66f7-44cc-8ce9-ed5ca62d211a"
+      },
+      {
+        "id": "752b4f0d-37db-4eca-ade8-22abf1ec5beb",
+        "created_at": "2023-09-23T08:45:19.561Z",
+        "updated_at": "2023-09-23T14:00:08.115Z",
+        "invoice_id": "b5d2f0c2-2458-4121-98a0-a4df029c2548",
+        "source_id": "e162de54-66f7-44cc-8ce9-ed5ca62d211a"
+      },
+      {
+        "id": "e2da64ff-dd93-4348-af5a-d049e124a2cb",
+        "created_at": "2023-09-23T00:26:30.774Z",
+        "updated_at": "2023-09-22T16:28:09.490Z",
+        "invoice_id": "c2626bc1-62d1-45f1-a004-d3d1d5a2ceaf",
+        "source_id": "e162de54-66f7-44cc-8ce9-ed5ca62d211a"
+      },
+      {
+        "id": "8998b4b4-9a13-4f05-95df-e9a057071dca",
+        "created_at": "2023-09-23T05:50:50.683Z",
+        "updated_at": "2023-09-22T16:50:57.255Z",
+        "invoice_id": "681cfe6d-9755-45f9-ac4b-c057f5434062",
+        "source_id": "e162de54-66f7-44cc-8ce9-ed5ca62d211a"
+      }
+    ],
+    "invoice_item": [
+      {
+        "id": "3be8792f-a196-4979-b21d-a45c205837d3",
+        "description": "Product A",
+        "quantity": 96977,
+        "price": 88984,
+        "total": 59133,
+        "created_at": "2023-09-22T15:11:42.254Z",
+        "updated_at": "2023-09-22T18:18:18.295Z",
+        "invoice_id": "c2626bc1-62d1-45f1-a004-d3d1d5a2ceaf"
+      },
+      {
+        "id": "723f4234-75fc-4490-8d76-37ff2d238c40",
+        "description": "Product B",
+        "quantity": 73200,
+        "price": 68854,
+        "total": 90315,
+        "created_at": "2023-09-22T20:39:27.160Z",
+        "updated_at": "2023-09-22T19:53:29.616Z",
+        "invoice_id": "681cfe6d-9755-45f9-ac4b-c057f5434062"
+      },
+      {
+        "id": "fa030a88-500f-447b-b45b-321723989d85",
+        "description": "Product C",
+        "quantity": 49095,
+        "price": 85425,
+        "total": 71913,
+        "created_at": "2023-09-23T12:24:34.677Z",
+        "updated_at": "2023-09-22T21:29:49.248Z",
+        "invoice_id": "b5d2f0c2-2458-4121-98a0-a4df029c2548"
+      },
+      {
+        "id": "997c9f8d-d686-4067-930d-1ba70e11f2c6",
+        "description": "Product D",
+        "quantity": 99832,
+        "price": 8279,
+        "total": 3204,
+        "created_at": "2023-09-22T18:50:58.699Z",
+        "updated_at": "2023-09-23T11:01:14.857Z",
+        "invoice_id": "c2626bc1-62d1-45f1-a004-d3d1d5a2ceaf"
+      },
+      {
+        "id": "51d3e6b7-ed32-48e6-8a93-70cae1630d7b",
+        "description": "Product E",
+        "quantity": 22027,
+        "price": 15850,
+        "total": 64709,
+        "created_at": "2023-09-23T03:18:21.839Z",
+        "updated_at": "2023-09-22T18:42:57.394Z",
+        "invoice_id": "16f5d4cc-3601-40a6-ae0b-922cc1dfdb05"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5155d482-5d6f-40f1-9697-835f2974c842",
+        "email": "Aliyah_Wiza69@roq.tech",
+        "firstName": "Deon",
+        "lastName": "Langworth",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47917893",
+        "tenantId": null
+      },
+      {
+        "reference": "a2c33e9e-de57-4986-80d2-f478e65baca6",
+        "email": "Eliza57@roq.tech",
+        "firstName": "Amelia",
+        "lastName": "Blick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79926456",
+        "tenantId": null
+      },
+      {
+        "reference": "8a4cab96-42f4-402f-90c3-6d6e3264d0d7",
+        "email": "Ivory.Morar89@roq.tech",
+        "firstName": "Melvin",
+        "lastName": "Hayes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82348398",
+        "tenantId": null
+      },
+      {
+        "reference": "36d7327c-e1d3-4e92-955b-a03f035ed44b",
+        "email": "Gunner.Franey-Rippin63@roq.tech",
+        "firstName": "Ressie",
+        "lastName": "Morissette",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/663.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6841833d-deee-4cda-9338-e09ec0dbfe7e",
+        "email": "Fredrick_Cassin95@roq.tech",
+        "firstName": "Obie",
+        "lastName": "Hermiston-Kulas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95473289",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "source": [
+      {
+        "id": "7be45ba2-29c8-450a-9918-b6f25fdf096d",
+        "name": "Website",
+        "type": "Online",
+        "url": "www.example.com",
+        "created_at": "2023-09-23T03:32:41.122Z",
+        "updated_at": "2023-09-23T01:51:49.203Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c6d700e-5167-492d-a0a9-18b0af03a7a0",
+        "name": "Social Media",
+        "type": "Offline",
+        "url": "www.socialmedia.com",
+        "created_at": "2023-09-22T15:44:55.567Z",
+        "updated_at": "2023-09-23T04:01:39.898Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba689bb4-3d5f-42f0-ad77-cafb98da8971",
+        "name": "Referral",
+        "type": "Print",
+        "url": "www.referral.com",
+        "created_at": "2023-09-23T06:16:01.436Z",
+        "updated_at": "2023-09-23T07:31:55.564Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "84afddaa-b1fd-42e7-a4c5-3b001cfcb56a",
+        "name": "Advertisement",
+        "type": "Digital",
+        "url": "www.advertisement.com",
+        "created_at": "2023-09-23T12:17:39.244Z",
+        "updated_at": "2023-09-22T23:07:18.689Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "960049cb-c1cc-4fa5-b13b-9385bae45f7f",
+        "name": "Email",
+        "type": "Word of mouth",
+        "url": "www.email.com",
+        "created_at": "2023-09-23T04:54:35.500Z",
+        "updated_at": "2023-09-22T15:26:44.268Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "5d4ae08c-eb9f-40e7-adb0-ccb68fb138c6",
+        "invoice_number": "INV-001",
+        "date": "2023-09-23T06:11:51.832Z",
+        "total_amount": 90673,
+        "status": "Paid",
+        "due_date": "2023-09-23T10:13:05.717Z",
+        "created_at": "2023-09-23T04:03:38.870Z",
+        "updated_at": "2023-09-23T00:59:33.410Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c80fb172-0e6b-4d78-a617-c629768334aa",
+        "invoice_number": "INV-002",
+        "date": "2023-09-23T07:39:38.776Z",
+        "total_amount": 39284,
+        "status": "Pending",
+        "due_date": "2023-09-22T21:53:15.185Z",
+        "created_at": "2023-09-23T03:25:33.010Z",
+        "updated_at": "2023-09-23T10:37:30.478Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69347caf-c5f3-4acc-a5ea-2488472ca757",
+        "invoice_number": "INV-003",
+        "date": "2023-09-23T09:49:08.991Z",
+        "total_amount": 65214,
+        "status": "Overdue",
+        "due_date": "2023-09-23T06:26:31.477Z",
+        "created_at": "2023-09-22T20:16:57.208Z",
+        "updated_at": "2023-09-23T08:15:41.896Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e16b13cc-15ca-40b0-8ee2-351d302900dd",
+        "invoice_number": "INV-004",
+        "date": "2023-09-22T16:55:36.308Z",
+        "total_amount": 87905,
+        "status": "Cancelled",
+        "due_date": "2023-09-23T01:12:43.367Z",
+        "created_at": "2023-09-22T20:28:14.042Z",
+        "updated_at": "2023-09-22T14:43:19.789Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a98b9e1c-c21b-4cef-9a29-ef6bacffb65b",
+        "invoice_number": "INV-005",
+        "date": "2023-09-23T09:32:22.767Z",
+        "total_amount": 55580,
+        "status": "Refunded",
+        "due_date": "2023-09-23T03:12:30.424Z",
+        "created_at": "2023-09-23T12:49:53.643Z",
+        "updated_at": "2023-09-23T10:58:11.119Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "source_invoice": [
+      {
+        "id": "9e65eac7-d94f-451d-84ef-2cf9436ba949",
+        "created_at": "2023-09-22T20:21:49.089Z",
+        "updated_at": "2023-09-22T22:34:29.908Z",
+        "invoice_id": "5d4ae08c-eb9f-40e7-adb0-ccb68fb138c6",
+        "source_id": "84afddaa-b1fd-42e7-a4c5-3b001cfcb56a"
+      },
+      {
+        "id": "4fad7930-0c5a-406b-9edb-54d3ac394c1b",
+        "created_at": "2023-09-22T21:18:57.193Z",
+        "updated_at": "2023-09-22T19:25:14.721Z",
+        "invoice_id": "c80fb172-0e6b-4d78-a617-c629768334aa",
+        "source_id": "6c6d700e-5167-492d-a0a9-18b0af03a7a0"
+      },
+      {
+        "id": "cd10916e-938f-4c43-8a9b-68a691880452",
+        "created_at": "2023-09-23T09:05:52.109Z",
+        "updated_at": "2023-09-23T06:40:00.539Z",
+        "invoice_id": "a98b9e1c-c21b-4cef-9a29-ef6bacffb65b",
+        "source_id": "84afddaa-b1fd-42e7-a4c5-3b001cfcb56a"
+      },
+      {
+        "id": "e6456cb2-0649-49d8-a4dd-a645dc82f2aa",
+        "created_at": "2023-09-23T05:01:20.419Z",
+        "updated_at": "2023-09-23T02:49:31.366Z",
+        "invoice_id": "c80fb172-0e6b-4d78-a617-c629768334aa",
+        "source_id": "6c6d700e-5167-492d-a0a9-18b0af03a7a0"
+      },
+      {
+        "id": "498f628a-73a6-4134-99e4-34a231ef72c8",
+        "created_at": "2023-09-23T04:05:45.970Z",
+        "updated_at": "2023-09-22T15:51:55.176Z",
+        "invoice_id": "a98b9e1c-c21b-4cef-9a29-ef6bacffb65b",
+        "source_id": "ba689bb4-3d5f-42f0-ad77-cafb98da8971"
+      }
+    ],
+    "invoice_item": [
+      {
+        "id": "9f082bc1-f9d1-4fa4-ab56-559693ca2852",
+        "description": "Product A",
+        "quantity": 52499,
+        "price": 59950,
+        "total": 68178,
+        "created_at": "2023-09-23T10:53:59.100Z",
+        "updated_at": "2023-09-23T11:51:12.022Z",
+        "invoice_id": "5d4ae08c-eb9f-40e7-adb0-ccb68fb138c6"
+      },
+      {
+        "id": "63adaade-9b46-45ec-900d-0ac839f1df7e",
+        "description": "Product B",
+        "quantity": 34723,
+        "price": 44014,
+        "total": 11358,
+        "created_at": "2023-09-22T15:01:16.713Z",
+        "updated_at": "2023-09-23T09:39:11.838Z",
+        "invoice_id": "c80fb172-0e6b-4d78-a617-c629768334aa"
+      },
+      {
+        "id": "c2bbead2-6c62-46fd-bd85-05bd9fe502f5",
+        "description": "Product C",
+        "quantity": 8221,
+        "price": 86744,
+        "total": 82503,
+        "created_at": "2023-09-22T18:27:07.990Z",
+        "updated_at": "2023-09-23T03:12:24.533Z",
+        "invoice_id": "69347caf-c5f3-4acc-a5ea-2488472ca757"
+      },
+      {
+        "id": "c41dd4d3-82dc-43b0-a792-87cf87fe5e3f",
+        "description": "Product D",
+        "quantity": 23332,
+        "price": 30323,
+        "total": 9648,
+        "created_at": "2023-09-23T08:13:27.955Z",
+        "updated_at": "2023-09-23T06:33:06.442Z",
+        "invoice_id": "c80fb172-0e6b-4d78-a617-c629768334aa"
+      },
+      {
+        "id": "964adf72-78c7-4e9a-9147-60d72bcbe189",
+        "description": "Product E",
+        "quantity": 44329,
+        "price": 81695,
+        "total": 57528,
+        "created_at": "2023-09-22T15:27:56.361Z",
+        "updated_at": "2023-09-23T00:13:42.028Z",
+        "invoice_id": "c80fb172-0e6b-4d78-a617-c629768334aa"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "05da266a-5c6f-4dc5-a42d-6dd7d597d837",
+        "email": "Evan21@roq.tech",
+        "firstName": "Devin",
+        "lastName": "Zboncak",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/285.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5b34d135-5a06-46ba-a146-4c7ab1df3ef2",
+        "email": "Antwan.Ortiz47@roq.tech",
+        "firstName": "Nicolette",
+        "lastName": "Green",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78480146",
+        "tenantId": null
+      },
+      {
+        "reference": "f07bcfff-696a-4a49-a781-ffe5227ec7bb",
+        "email": "Carol_Purdy33@roq.tech",
+        "firstName": "Deonte",
+        "lastName": "Corwin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79978354",
+        "tenantId": null
+      },
+      {
+        "reference": "8fc535dd-5e3a-4945-9f71-955ecfd29533",
+        "email": "Everett25@roq.tech",
+        "firstName": "Jedidiah",
+        "lastName": "Bosco",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42232481",
+        "tenantId": null
+      },
+      {
+        "reference": "ff2a4f56-c905-4511-af8b-709b90d78d2e",
+        "email": "Maggie83@roq.tech",
+        "firstName": "Kyleigh",
+        "lastName": "Marks",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/736.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "source": [
+      {
+        "id": "f597d308-5fc3-4aed-b76b-cc8478147acc",
+        "name": "Source A",
+        "type": "Type A",
+        "url": "http://www.example.com/sourceA",
+        "created_at": "2023-09-22T21:30:44.657Z",
+        "updated_at": "2023-09-23T03:18:41.046Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee0a454f-1b35-4d34-993b-2f7fb02afbd0",
+        "name": "Source B",
+        "type": "Type B",
+        "url": "http://www.example.com/sourceB",
+        "created_at": "2023-09-22T21:29:22.575Z",
+        "updated_at": "2023-09-23T05:36:05.622Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a29e419-9453-4d59-9220-89957a1bcfb8",
+        "name": "Source C",
+        "type": "Type C",
+        "url": "http://www.example.com/sourceC",
+        "created_at": "2023-09-23T13:41:26.653Z",
+        "updated_at": "2023-09-23T09:10:56.265Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "682ff9e1-6757-4942-94ca-04f2118a2f0a",
+        "name": "Source D",
+        "type": "Type D",
+        "url": "http://www.example.com/sourceD",
+        "created_at": "2023-09-22T15:18:48.030Z",
+        "updated_at": "2023-09-22T22:10:37.760Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cae0c584-320e-4b75-85bc-d681454be09f",
+        "name": "Source E",
+        "type": "Type E",
+        "url": "http://www.example.com/sourceE",
+        "created_at": "2023-09-22T18:33:13.863Z",
+        "updated_at": "2023-09-23T04:58:46.483Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "dd4d5cd1-faa8-499c-947e-bbaf84f9e46e",
+        "invoice_number": "INV-001",
+        "date": "2023-09-22T22:40:29.075Z",
+        "total_amount": 28187,
+        "status": "Paid",
+        "due_date": "2023-09-22T23:39:03.529Z",
+        "created_at": "2023-09-23T13:40:38.532Z",
+        "updated_at": "2023-09-23T08:47:12.742Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b65bb5c-d407-45b7-97a2-ba2332963f4c",
+        "invoice_number": "INV-002",
+        "date": "2023-09-23T14:16:04.720Z",
+        "total_amount": 57293,
+        "status": "Pending",
+        "due_date": "2023-09-23T10:42:16.827Z",
+        "created_at": "2023-09-22T17:30:31.114Z",
+        "updated_at": "2023-09-23T07:53:51.306Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc7a8648-07ea-4840-bd0e-5e2bbf34335e",
+        "invoice_number": "INV-003",
+        "date": "2023-09-23T11:51:17.350Z",
+        "total_amount": 50135,
+        "status": "Cancelled",
+        "due_date": "2023-09-23T04:37:22.554Z",
+        "created_at": "2023-09-22T18:31:51.680Z",
+        "updated_at": "2023-09-23T00:13:18.471Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "285f3421-0ac3-4161-b870-20208b36550d",
+        "invoice_number": "INV-004",
+        "date": "2023-09-23T09:03:35.120Z",
+        "total_amount": 44570,
+        "status": "Processing",
+        "due_date": "2023-09-22T22:20:14.275Z",
+        "created_at": "2023-09-23T12:40:53.347Z",
+        "updated_at": "2023-09-23T06:12:08.042Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad391468-938b-4e88-ab4d-dd51f7ff56c4",
+        "invoice_number": "INV-005",
+        "date": "2023-09-23T12:57:05.524Z",
+        "total_amount": 504,
+        "status": "Overdue",
+        "due_date": "2023-09-23T02:06:03.615Z",
+        "created_at": "2023-09-22T19:26:31.356Z",
+        "updated_at": "2023-09-22T17:05:07.688Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "source_invoice": [
+      {
+        "id": "06b0e361-45ef-4fb1-8c0d-698ac15b4de1",
+        "created_at": "2023-09-22T16:30:56.976Z",
+        "updated_at": "2023-09-23T00:01:22.437Z",
+        "invoice_id": "0b65bb5c-d407-45b7-97a2-ba2332963f4c",
+        "source_id": "8a29e419-9453-4d59-9220-89957a1bcfb8"
+      },
+      {
+        "id": "af1bcea1-105f-4d0e-899a-7d32e919848d",
+        "created_at": "2023-09-23T07:35:01.043Z",
+        "updated_at": "2023-09-22T16:54:38.986Z",
+        "invoice_id": "285f3421-0ac3-4161-b870-20208b36550d",
+        "source_id": "8a29e419-9453-4d59-9220-89957a1bcfb8"
+      },
+      {
+        "id": "cf2a268b-cb93-4514-aff0-794a12746f31",
+        "created_at": "2023-09-23T12:23:50.168Z",
+        "updated_at": "2023-09-22T20:32:44.240Z",
+        "invoice_id": "285f3421-0ac3-4161-b870-20208b36550d",
+        "source_id": "f597d308-5fc3-4aed-b76b-cc8478147acc"
+      },
+      {
+        "id": "57067da7-8457-496e-ad96-b05e8005f0af",
+        "created_at": "2023-09-22T15:29:48.455Z",
+        "updated_at": "2023-09-23T12:57:10.616Z",
+        "invoice_id": "bc7a8648-07ea-4840-bd0e-5e2bbf34335e",
+        "source_id": "cae0c584-320e-4b75-85bc-d681454be09f"
+      },
+      {
+        "id": "075f17e2-f219-479a-807f-f885395ac4de",
+        "created_at": "2023-09-23T01:12:18.832Z",
+        "updated_at": "2023-09-23T07:29:14.381Z",
+        "invoice_id": "bc7a8648-07ea-4840-bd0e-5e2bbf34335e",
+        "source_id": "cae0c584-320e-4b75-85bc-d681454be09f"
+      }
+    ],
+    "invoice_item": [
+      {
+        "id": "79210c47-250c-4ede-81a9-1c708a21f346",
+        "description": "Item A",
+        "quantity": 19260,
+        "price": 5008,
+        "total": 52015,
+        "created_at": "2023-09-23T14:17:17.915Z",
+        "updated_at": "2023-09-23T10:52:01.700Z",
+        "invoice_id": "bc7a8648-07ea-4840-bd0e-5e2bbf34335e"
+      },
+      {
+        "id": "7593976a-8040-4e57-88be-be7d9ff95d15",
+        "description": "Item B",
+        "quantity": 54105,
+        "price": 91943,
+        "total": 20225,
+        "created_at": "2023-09-22T21:18:06.282Z",
+        "updated_at": "2023-09-23T06:35:29.286Z",
+        "invoice_id": "285f3421-0ac3-4161-b870-20208b36550d"
+      },
+      {
+        "id": "d205cb76-bc7d-49c7-b391-92bd8c0e61ea",
+        "description": "Item C",
+        "quantity": 81897,
+        "price": 32785,
+        "total": 39257,
+        "created_at": "2023-09-23T00:41:42.287Z",
+        "updated_at": "2023-09-23T04:01:50.468Z",
+        "invoice_id": "dd4d5cd1-faa8-499c-947e-bbaf84f9e46e"
+      },
+      {
+        "id": "cb3230bb-acb0-4c01-b6de-ec386f02d23b",
+        "description": "Item D",
+        "quantity": 77757,
+        "price": 89188,
+        "total": 19312,
+        "created_at": "2023-09-23T09:11:47.132Z",
+        "updated_at": "2023-09-23T09:34:38.179Z",
+        "invoice_id": "0b65bb5c-d407-45b7-97a2-ba2332963f4c"
+      },
+      {
+        "id": "d2549957-ea7a-4792-91cb-1d1110f1c68e",
+        "description": "Item E",
+        "quantity": 74413,
+        "price": 89855,
+        "total": 73300,
+        "created_at": "2023-09-22T19:32:48.568Z",
+        "updated_at": "2023-09-22T18:37:18.033Z",
+        "invoice_id": "bc7a8648-07ea-4840-bd0e-5e2bbf34335e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "dd46ae1c-0d9e-49c7-90b3-b23fd3d6fc08",
+        "email": "Jaylen81@roq.tech",
+        "firstName": "Ruthie",
+        "lastName": "Lang",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1162.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fbb356b2-56f3-44dd-8b5f-d54f14498c34",
+        "email": "Esteban.Lehner57@roq.tech",
+        "firstName": "Kayla",
+        "lastName": "Bartell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66243171",
+        "tenantId": null
+      },
+      {
+        "reference": "3b6cdb63-92a8-43e8-a4bb-7d3a7692f230",
+        "email": "Janie90@roq.tech",
+        "firstName": "Tillman",
+        "lastName": "Wilderman-Cronin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67620452",
+        "tenantId": null
+      },
+      {
+        "reference": "89a30e03-70bc-4ec7-bda4-4585068a0597",
+        "email": "Laurence70@roq.tech",
+        "firstName": "Amya",
+        "lastName": "Emard",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68298936",
+        "tenantId": null
+      },
+      {
+        "reference": "9ddd75a1-826b-4513-a5df-45b6c7e02c60",
+        "email": "Enoch46@roq.tech",
+        "firstName": "Harmony",
+        "lastName": "Blick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60483880",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "source": [
+      {
+        "id": "0e3af316-799d-4718-8536-caec69756fbf",
+        "name": "Google",
+        "type": "Search Engine",
+        "url": "https://www.google.com",
+        "created_at": "2023-09-22T19:22:31.497Z",
+        "updated_at": "2023-09-22T16:32:00.493Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a933029d-27e4-4e84-98d9-29c88c98cb35",
+        "name": "Facebook",
+        "type": "Social Media",
+        "url": "https://www.facebook.com",
+        "created_at": "2023-09-23T00:07:02.062Z",
+        "updated_at": "2023-09-22T20:44:55.372Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dfbe09f6-733c-42d3-9032-471b4592df71",
+        "name": "Twitter",
+        "type": "Microblogging",
+        "url": "https://www.twitter.com",
+        "created_at": "2023-09-23T02:53:55.428Z",
+        "updated_at": "2023-09-23T02:39:40.179Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "03e36794-91fc-45a0-b8d6-9014c43b9969",
+        "name": "LinkedIn",
+        "type": "Professional Network",
+        "url": "https://www.linkedin.com",
+        "created_at": "2023-09-23T06:26:21.285Z",
+        "updated_at": "2023-09-22T17:34:56.185Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9346d135-e192-428e-b1e6-c88b1600b173",
+        "name": "Instagram",
+        "type": "Photo Sharing",
+        "url": "https://www.instagram.com",
+        "created_at": "2023-09-23T12:21:30.084Z",
+        "updated_at": "2023-09-23T10:30:46.108Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "fd3630c7-a5b7-45ab-9e7f-2570c12b97d6",
+        "invoice_number": "INV-001",
+        "date": "2023-09-22T19:34:56.289Z",
+        "total_amount": 72151,
+        "status": "Paid",
+        "due_date": "2023-09-23T04:00:18.527Z",
+        "created_at": "2023-09-23T03:22:15.309Z",
+        "updated_at": "2023-09-22T15:54:00.443Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "624a7b62-458b-48b9-9d92-f030e6d6ce3f",
+        "invoice_number": "INV-002",
+        "date": "2023-09-22T22:13:26.062Z",
+        "total_amount": 87424,
+        "status": "Pending",
+        "due_date": "2023-09-22T23:12:05.198Z",
+        "created_at": "2023-09-23T01:45:18.955Z",
+        "updated_at": "2023-09-23T09:43:13.433Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c6fef5f-d5dd-421c-9ede-1b8b88cdd290",
+        "invoice_number": "INV-003",
+        "date": "2023-09-22T18:01:56.736Z",
+        "total_amount": 56636,
+        "status": "Overdue",
+        "due_date": "2023-09-23T01:18:18.982Z",
+        "created_at": "2023-09-22T22:21:45.764Z",
+        "updated_at": "2023-09-22T14:59:43.795Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "22574937-4400-4783-b5b3-9f64dce1f925",
+        "invoice_number": "INV-004",
+        "date": "2023-09-23T00:49:56.665Z",
+        "total_amount": 21348,
+        "status": "Cancelled",
+        "due_date": "2023-09-23T01:40:39.317Z",
+        "created_at": "2023-09-23T12:12:53.675Z",
+        "updated_at": "2023-09-22T15:23:28.461Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82dfb663-020b-4317-bad2-a599f0eba131",
+        "invoice_number": "INV-005",
+        "date": "2023-09-22T14:44:29.465Z",
+        "total_amount": 47943,
+        "status": "Refunded",
+        "due_date": "2023-09-23T14:23:26.213Z",
+        "created_at": "2023-09-23T11:08:02.504Z",
+        "updated_at": "2023-09-23T02:16:48.190Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "source_invoice": [
+      {
+        "id": "d5d58192-90a4-4a58-bdb6-e96e7ea4713a",
+        "created_at": "2023-09-23T02:28:31.684Z",
+        "updated_at": "2023-09-23T04:05:01.836Z",
+        "invoice_id": "624a7b62-458b-48b9-9d92-f030e6d6ce3f",
+        "source_id": "dfbe09f6-733c-42d3-9032-471b4592df71"
+      },
+      {
+        "id": "d6d52fc3-881d-4f98-b810-301afaec4f24",
+        "created_at": "2023-09-22T16:14:46.271Z",
+        "updated_at": "2023-09-22T20:18:35.581Z",
+        "invoice_id": "4c6fef5f-d5dd-421c-9ede-1b8b88cdd290",
+        "source_id": "9346d135-e192-428e-b1e6-c88b1600b173"
+      },
+      {
+        "id": "58360e24-9c44-40bd-b232-28f3be6c0f46",
+        "created_at": "2023-09-23T07:48:51.449Z",
+        "updated_at": "2023-09-22T16:30:59.802Z",
+        "invoice_id": "4c6fef5f-d5dd-421c-9ede-1b8b88cdd290",
+        "source_id": "dfbe09f6-733c-42d3-9032-471b4592df71"
+      },
+      {
+        "id": "620feeb8-ee55-41d1-810b-bb2fb5667975",
+        "created_at": "2023-09-23T08:57:22.395Z",
+        "updated_at": "2023-09-23T09:31:10.145Z",
+        "invoice_id": "82dfb663-020b-4317-bad2-a599f0eba131",
+        "source_id": "a933029d-27e4-4e84-98d9-29c88c98cb35"
+      },
+      {
+        "id": "32ca7e98-332c-47dd-855e-cd66550d3a7f",
+        "created_at": "2023-09-22T16:26:06.748Z",
+        "updated_at": "2023-09-22T19:17:57.711Z",
+        "invoice_id": "624a7b62-458b-48b9-9d92-f030e6d6ce3f",
+        "source_id": "0e3af316-799d-4718-8536-caec69756fbf"
+      }
+    ],
+    "invoice_item": [
+      {
+        "id": "4aeef1e8-eefa-404e-a1e2-fb8a1cf47358",
+        "description": "Product A",
+        "quantity": 67621,
+        "price": 72417,
+        "total": 89006,
+        "created_at": "2023-09-22T17:26:57.178Z",
+        "updated_at": "2023-09-23T07:44:40.997Z",
+        "invoice_id": "fd3630c7-a5b7-45ab-9e7f-2570c12b97d6"
+      },
+      {
+        "id": "9421214e-0c91-4511-b11b-b0bc0be23a89",
+        "description": "Product B",
+        "quantity": 61583,
+        "price": 18986,
+        "total": 39112,
+        "created_at": "2023-09-23T05:25:20.820Z",
+        "updated_at": "2023-09-22T21:11:33.481Z",
+        "invoice_id": "fd3630c7-a5b7-45ab-9e7f-2570c12b97d6"
+      },
+      {
+        "id": "428bda87-0407-469c-87ad-fe3b73e3b817",
+        "description": "Product C",
+        "quantity": 60532,
+        "price": 35170,
+        "total": 74905,
+        "created_at": "2023-09-23T05:35:40.491Z",
+        "updated_at": "2023-09-22T19:36:53.983Z",
+        "invoice_id": "22574937-4400-4783-b5b3-9f64dce1f925"
+      },
+      {
+        "id": "10f1bbed-501a-40fb-ad04-e69f90039938",
+        "description": "Product D",
+        "quantity": 18056,
+        "price": 15198,
+        "total": 8438,
+        "created_at": "2023-09-23T05:07:42.356Z",
+        "updated_at": "2023-09-22T23:14:27.315Z",
+        "invoice_id": "4c6fef5f-d5dd-421c-9ede-1b8b88cdd290"
+      },
+      {
+        "id": "78ccd112-1c0b-481e-8be3-8ac3791f26b2",
+        "description": "Product E",
+        "quantity": 9090,
+        "price": 49842,
+        "total": 41901,
+        "created_at": "2023-09-22T18:00:37.714Z",
+        "updated_at": "2023-09-22T18:16:59.077Z",
+        "invoice_id": "fd3630c7-a5b7-45ab-9e7f-2570c12b97d6"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "005ee910-2ee0-4102-85ad-7d89c919b816",
+        "email": "Santina_Rolfson26@roq.tech",
+        "firstName": "Fay",
+        "lastName": "Turcotte",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11872230",
+        "tenantId": null
+      },
+      {
+        "reference": "08e33cc5-8016-4fa7-b410-3d23230149f9",
+        "email": "Ronaldo74@roq.tech",
+        "firstName": "Sammy",
+        "lastName": "Wintheiser",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11101781",
+        "tenantId": null
+      },
+      {
+        "reference": "cc8f11d0-5ce6-464c-8399-eca1f3f9d8f7",
+        "email": "Jaiden_Bogan@roq.tech",
+        "firstName": "Isadore",
+        "lastName": "Jenkins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8566225",
+        "tenantId": null
+      },
+      {
+        "reference": "90896681-a67d-4ec0-a049-6a42b06f6e2c",
+        "email": "Christop_Hettinger@roq.tech",
+        "firstName": "Kip",
+        "lastName": "Stroman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7012203",
+        "tenantId": null
+      },
+      {
+        "reference": "d8833531-56da-4d6e-b328-3577bdf0ae7b",
+        "email": "Monroe96@roq.tech",
+        "firstName": "Twila",
+        "lastName": "Treutel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38537063",
+        "tenantId": null
+      }
+    ]
+  }
+]
